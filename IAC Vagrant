@@ -1,0 +1,31 @@
+Step 1 - Create a vagrant directory.
+
+Command: mkdir vagrant
+
+Step 2 -Create another directory inside vagrant-vms
+
+Command: mkdir IAAC
+
+Step 3 - Create two directories inside IAAC
+
+Command: mkdir website
+
+Step 4 - Change directory to website
+
+Command: cd website
+
+Step 5 - Create a vagrantfile inside wordpress directory 
+
+Command: vagrant init centos/7
+
+Step 5 - Use vim editor to modify the vagrantfile IP address, enable bridge adapter, and upload the website link.
+
+Step 6 - Start the VM
+
+Command: vagrant up
+
+Step 7: Access the website from the browser using the VM's IP Address.
+
+
+
+
